@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          default-name: eureka
+          default-name: gateway
           uri: https://github.com/rbenitec/rbenitez-config-data
           searchPaths: rbenitez-config-data
           cloneOnStart: true
