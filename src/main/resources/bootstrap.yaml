@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-name: main
+          uri: https://github.com/rbenitec/rbenitez-config-data
+          searchPaths: rbenitez-config-data
+          cloneOnStart: true
