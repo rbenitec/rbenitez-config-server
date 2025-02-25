@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          default-name: gateway
+          default-name: main
           uri: https://github.com/rbenitec/rbenitez-config-data
-          searchPaths: rbenitez-config-data
+          searchPaths: .
           cloneOnStart: true
