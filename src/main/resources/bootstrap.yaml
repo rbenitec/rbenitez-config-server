@@ -10,4 +10,3 @@ spring:
           default-label: main
           uri: https://github.com/rbenitec/rbenitez-config-data
           search-paths: .
-          cloneOnStart: true
