@@ -7,6 +7,5 @@ spring:
     config:
       server:
         git:
-          default-label: main
           uri: https://github.com/rbenitec/rbenitez-config-data
           search-paths: .
